@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="generator" content="made with love by dartdoc 6.0.0">
+  <meta name="description" content="firebase_ui_example API docs, for the Dart programming language.">
+  <title>firebase_ui_example - Dart API docs</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="static-assets/github.css?v1">
+  <link rel="stylesheet" href="static-assets/styles.css?v1">
+  <link rel="icon" href="static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="" data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li class="self-crumb">firebase_ui_example package</li>
+  </ol>
+  <div class="self-name">firebase_ui_example</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      
+<section class="desc markdown">
+  <h1 id="flutter-firebase-auth-example">Flutter Firebase Auth Example</h1>
+<p>This is a simplified version of the example app provided with the <a href="https://github.com/firebase/flutterfire/tree/master/packages/firebase_ui_auth">firebase_ui_auth</a> package.</p>
+<p>This app only provides code to support email signin.</p>
+<p>This code illustrates the basic design pattern for the Firebase_ui_auth package. This package provides some prebuilt "screens" (widgets): <a href="https://pub.dev/documentation/firebase_ui_auth/1.1.7/firebase_ui_auth/SignInScreen-class.html">SignInScreen</a>, <a href="https://pub.dev/documentation/firebase_ui_auth/1.1.7/firebase_ui_auth/EmailVerificationScreen-class.html">EmailVerificationScreen</a>, <a href="https://pub.dev/documentation/firebase_ui_auth/1.1.7/firebase_ui_auth/ForgotPasswordScreen-class.html">ForgotPasswordScreen</a>, and <a href="https://pub.dev/documentation/firebase_ui_auth/1.1.7/firebase_ui_auth/ProfileScreen-class.html">ProfileScreen</a>. You can customize the presentation of these widgets to follow your design theme.</p>
+<p>Each of these screens take an "actions" parameter to which you can supply an <a href="https://pub.dev/documentation/firebase_ui_auth/1.1.7/firebase_ui_auth/AuthStateChangeAction-class.html">AuthStateChangeAction</a> in order to control what happens when a particular state in the authorization workflow occurs. For example, when the user successfully signs in with a verified email address, you probably want them to go to some sort of "home" page. The example app shows how you can use actions to navigate to various pages based upon the state of authorization.</p>
+<h2 id="screenshots">Screenshots</h2>
+<p>Normal signin with a pre-existing verified account takes you to the profile screen:</p><p style="text-align: center">
+<img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-signin.png" width="45%">
+&nbsp; &nbsp; 
+<img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-profile.png" width="45%">
+</p>
+<p>If you don't have an account, you go to the register screen. After filling it out, you have to wait to receive an email to verify your email address:</p><p style="text-align: center">
+<img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-register.png" width="45%">
+&nbsp; &nbsp; 
+<img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-verify-email.png" width="45%">
+</p>
+<p>You'll receive an email like the following. After clicking the link, you get an indication that the email was verified:</p><p style="text-align: center">
+<img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-email-verified-browser.png" width="45%">
+&nbsp; &nbsp; 
+<img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-email-verified-browser.png" width="45%">
+</p>
+<h2 id="installation">Installation</h2>
+<p>Download this source code.</p>
+<p>Follow the instructions in <a href="https://courses.ics.hawaii.edu/mobile-application-development/morea/data/reading-firestore-setup-cheat-sheet.html">Firestore Setup Cheat Sheet</a> to setup a Firestore database for this app.</p>
+<p>Run the app.</p>
+</section>
+
+
+      <section class="summary">
+          <h2>Libraries</h2>
+        <dl>
+          <dt id="decorations">
+  <span class="name"><a href="decorations/decorations-library.html">decorations</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="firebase_options">
+  <span class="name"><a href="firebase_options/firebase_options-library.html">firebase_options</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+          <dt id="main">
+  <span class="name"><a href="main/main-library.html">main</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+        </dl>
+      </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li class="self-crumb">firebase_ui_example package</li>
+</ol>
+
+
+    <h5 class="hidden-xs"><span class="package-name">firebase_ui_example</span> <span class="package-kind">package</span></h5>
+    <ol>
+      <li class="section-title">Libraries</li>
+      <li><a href="decorations/decorations-library.html">decorations</a></li>
+      <li><a href="firebase_options/firebase_options-library.html">firebase_options</a></li>
+      <li><a href="main/main-library.html">main</a></li>
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div>
+
+</main>
+
+<footer>
+  <span class="no-break">
+    firebase_ui_example
+      1.0.0+1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="static-assets/highlight.pack.js?v1"></script>
+<script src="static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+
