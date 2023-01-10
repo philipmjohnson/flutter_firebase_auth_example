@@ -2,9 +2,10 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:flutter/material.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
+import 'package:flutter/material.dart';
 
+// Customize the Header section of the Signin page.
 HeaderBuilder headerImage(String assetName) {
   return (context, constraints, _) {
     return Padding(
@@ -14,6 +15,7 @@ HeaderBuilder headerImage(String assetName) {
   };
 }
 
+/// Customize the icon displayed in the Header.
 HeaderBuilder headerIcon(IconData icon) {
   return (context, constraints, shrinkOffset) {
     return Padding(
@@ -27,6 +29,7 @@ HeaderBuilder headerIcon(IconData icon) {
   };
 }
 
+/// Customize the side image.
 SideBuilder sideImage(String assetName) {
   return (context, constraints) {
     return Center(
@@ -38,6 +41,7 @@ SideBuilder sideImage(String assetName) {
   };
 }
 
+/// Customize the side icon
 SideBuilder sideIcon(IconData icon) {
   return (context, constraints) {
     return Padding(

@@ -10,6 +10,7 @@ import 'package:flutter/material.dart';
 import 'decorations.dart';
 import 'firebase_options.dart';
 
+/// Main program initializes [Firebase], configures [EmailAuthProvider], and runs [FirebaseAuthUIExample].
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
@@ -17,6 +18,7 @@ Future<void> main() async {
   runApp(const FirebaseAuthUIExample());
 }
 
+/// The widget that implements Email authorization workflow.
 class FirebaseAuthUIExample extends StatelessWidget {
   const FirebaseAuthUIExample({Key? key}) : super(key: key);
 
@@ -31,6 +33,7 @@ class FirebaseAuthUIExample extends StatelessWidget {
     return '/profile';
   }
 
+  /// Builds a widget that performs email-based authorization.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
