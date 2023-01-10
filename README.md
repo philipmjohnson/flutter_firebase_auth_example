@@ -29,7 +29,7 @@ If you don't have an account, you go to the register screen. After filling it ou
 You'll receive an email like the following. After clicking the link, you get an indication that the email was verified:
 
 <p style="text-align: center">
-  <img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-email-verified-browser.png" width="45%">
+  <img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-verify-email-browser.png" width="45%">
 &nbsp; &nbsp; 
   <img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-email-verified-browser.png" width="45%">
 </p>
