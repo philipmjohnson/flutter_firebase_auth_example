@@ -37,6 +37,12 @@ class FirebaseAuthUIExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        // Make email and password inputs boxes, not underlines.
+        inputDecorationTheme: const InputDecorationTheme(
+          border: OutlineInputBorder(),
+        ),
+      ),
       initialRoute: initialRoute,
       routes: {
         '/': (context) {
