@@ -37,13 +37,6 @@ class FirebaseAuthUIExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        brightness: Brightness.light,
-        visualDensity: VisualDensity.standard,
-        inputDecorationTheme: const InputDecorationTheme(
-          border: OutlineInputBorder(),
-        ),
-      ),
       initialRoute: initialRoute,
       routes: {
         '/': (context) {
