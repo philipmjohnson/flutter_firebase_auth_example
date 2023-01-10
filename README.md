@@ -13,25 +13,25 @@ Each of these screens take an "actions" parameter to which you can supply an [Au
 Normal signin with a pre-existing verified account takes you to the profile screen:
 
 <p style="text-align: center">
-  <img src="./README-signin.png" width="45%">
+  <img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-signin.png" width="45%">
 &nbsp; &nbsp; 
-  <img src="./README-profile.png" width="45%">
+  <img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-profile.png" width="45%">
 </p>
 
 If you don't have an account, you go to the register screen. After filling it out, you have to wait to receive an email to verify your email address:
 
 <p style="text-align: center">
-  <img src="./README-register.png" width="45%">
+  <img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-register.png" width="45%">
 &nbsp; &nbsp; 
-  <img src="./README-verify-email.png" width="45%">
+  <img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-verify-email.png" width="45%">
 </p>
 
 You'll receive an email like the following. After clicking the link, you get an indication that the email was verified:
 
 <p style="text-align: center">
-  <img src="./README-verify-email-browser.png" width="45%">
+  <img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-email-verified-browser.png" width="45%">
 &nbsp; &nbsp; 
-  <img src="./README-email-verified-browser.png" width="45%">
+  <img src="https://github.com/philipmjohnson/flutter_firebase_auth_example/raw/main/README-email-verified-browser.png" width="45%">
 </p>
 
 
